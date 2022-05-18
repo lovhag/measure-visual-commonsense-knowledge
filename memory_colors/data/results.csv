@@ -1,0 +1,105 @@
+model,question_template,accuracy
+clip-bert-explicit,Q: What is the color of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.8990825688073395
+clip-bert-explicit,Q: What is the color of [DESCRIPTOR] [ITEM]? [SEP] A: It is [MASK].,0.8807339449541285
+clip-bert-explicit,Q: What is the colour of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.8715596330275229
+clip-bert-explicit,What is the color of [DESCRIPTOR] [ITEM]? [MASK].,0.944954128440367
+clip-bert-explicit,What is the color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.908256880733945
+clip-bert-explicit,What is the colour of [DESCRIPTOR] [ITEM]? [MASK].,0.944954128440367
+clip-bert-explicit,The color of [DESCRIPTOR] [ITEM] is [MASK].,0.7339449541284404
+clip-bert-explicit,The usual color of [DESCRIPTOR] [ITEM] is [MASK].,0.8165137614678899
+clip-bert-explicit,[DESCRIPTOR] [ITEM] usually has the color of [MASK].,0.7798165137614679
+clip-bert-explicit,What is the usual color of [DESCRIPTOR] [ITEM]? [MASK].,0.9174311926605505
+clip-bert-explicit,What is the usual color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.9357798165137615
+clip-bert-explicit,What is the typical color of [DESCRIPTOR] [ITEM]? [MASK].,0.926605504587156
+clip-bert-explicit,What is the typical color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.908256880733945
+bert-base-uncased,Q: What is the color of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.3577981651376147
+bert-base-uncased,Q: What is the color of [DESCRIPTOR] [ITEM]? [SEP] A: It is [MASK].,0.3211009174311927
+bert-base-uncased,Q: What is the colour of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.3944954128440367
+bert-base-uncased,What is the color of [DESCRIPTOR] [ITEM]? [MASK].,0.13761467889908258
+bert-base-uncased,What is the color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.1559633027522936
+bert-base-uncased,What is the colour of [DESCRIPTOR] [ITEM]? [MASK].,0.1743119266055046
+bert-base-uncased,The color of [DESCRIPTOR] [ITEM] is [MASK].,0.3761467889908257
+bert-base-uncased,The usual color of [DESCRIPTOR] [ITEM] is [MASK].,0.3669724770642202
+bert-base-uncased,[DESCRIPTOR] [ITEM] usually has the color of [MASK].,0.3119266055045872
+bert-base-uncased,What is the usual color of [DESCRIPTOR] [ITEM]? [MASK].,0.1834862385321101
+bert-base-uncased,What is the usual color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.1743119266055046
+bert-base-uncased,What is the typical color of [DESCRIPTOR] [ITEM]? [MASK].,0.1651376146788991
+bert-base-uncased,What is the typical color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.1559633027522936
+bert-base-trained,Q: What is the color of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.7981651376146789
+bert-base-trained,Q: What is the color of [DESCRIPTOR] [ITEM]? [SEP] A: It is [MASK].,0.7614678899082569
+bert-base-trained,Q: What is the colour of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.7614678899082569
+bert-base-trained,What is the color of [DESCRIPTOR] [ITEM]? [MASK].,0.7798165137614679
+bert-base-trained,What is the color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.7798165137614679
+bert-base-trained,What is the colour of [DESCRIPTOR] [ITEM]? [MASK].,0.7981651376146789
+bert-base-trained,The color of [DESCRIPTOR] [ITEM] is [MASK].,0.5504587155963303
+bert-base-trained,The usual color of [DESCRIPTOR] [ITEM] is [MASK].,0.6605504587155964
+bert-base-trained,[DESCRIPTOR] [ITEM] usually has the color of [MASK].,0.43119266055045874
+bert-base-trained,What is the usual color of [DESCRIPTOR] [ITEM]? [MASK].,0.7889908256880734
+bert-base-trained,What is the usual color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.7706422018348624
+bert-base-trained,What is the typical color of [DESCRIPTOR] [ITEM]? [MASK].,0.7706422018348624
+bert-base-trained,What is the typical color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.7614678899082569
+clip-bert-implicit,Q: What is the color of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.7522935779816514
+clip-bert-implicit,Q: What is the color of [DESCRIPTOR] [ITEM]? [SEP] A: It is [MASK].,0.7155963302752294
+clip-bert-implicit,Q: What is the colour of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.7339449541284404
+clip-bert-implicit,What is the color of [DESCRIPTOR] [ITEM]? [MASK].,0.7981651376146789
+clip-bert-implicit,What is the color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.7706422018348624
+clip-bert-implicit,What is the colour of [DESCRIPTOR] [ITEM]? [MASK].,0.7981651376146789
+clip-bert-implicit,The color of [DESCRIPTOR] [ITEM] is [MASK].,0.7339449541284404
+clip-bert-implicit,The usual color of [DESCRIPTOR] [ITEM] is [MASK].,0.7247706422018348
+clip-bert-implicit,[DESCRIPTOR] [ITEM] usually has the color of [MASK].,0.5321100917431193
+clip-bert-implicit,What is the usual color of [DESCRIPTOR] [ITEM]? [MASK].,0.7614678899082569
+clip-bert-implicit,What is the usual color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.7614678899082569
+clip-bert-implicit,What is the typical color of [DESCRIPTOR] [ITEM]? [MASK].,0.7706422018348624
+clip-bert-implicit,What is the typical color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.7798165137614679
+bert-base-trained-lxmert,Q: What is the color of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.7614678899082569
+bert-base-trained-lxmert,Q: What is the color of [DESCRIPTOR] [ITEM]? [SEP] A: It is [MASK].,0.7431192660550459
+bert-base-trained-lxmert,Q: What is the colour of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.7522935779816514
+bert-base-trained-lxmert,What is the color of [DESCRIPTOR] [ITEM]? [MASK].,0.7522935779816514
+bert-base-trained-lxmert,What is the color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.7614678899082569
+bert-base-trained-lxmert,What is the colour of [DESCRIPTOR] [ITEM]? [MASK].,0.7614678899082569
+bert-base-trained-lxmert,The color of [DESCRIPTOR] [ITEM] is [MASK].,0.7522935779816514
+bert-base-trained-lxmert,The usual color of [DESCRIPTOR] [ITEM] is [MASK].,0.7706422018348624
+bert-base-trained-lxmert,[DESCRIPTOR] [ITEM] usually has the color of [MASK].,0.6880733944954128
+bert-base-trained-lxmert,What is the usual color of [DESCRIPTOR] [ITEM]? [MASK].,0.7706422018348624
+bert-base-trained-lxmert,What is the usual color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.7889908256880734
+bert-base-trained-lxmert,What is the typical color of [DESCRIPTOR] [ITEM]? [MASK].,0.7981651376146789
+bert-base-trained-lxmert,What is the typical color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.7981651376146789
+bert-base-trained-lxmert-scratch,Q: What is the color of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.6422018348623854
+bert-base-trained-lxmert-scratch,Q: What is the color of [DESCRIPTOR] [ITEM]? [SEP] A: It is [MASK].,0.6605504587155964
+bert-base-trained-lxmert-scratch,Q: What is the colour of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.6055045871559633
+bert-base-trained-lxmert-scratch,What is the color of [DESCRIPTOR] [ITEM]? [MASK].,0.7247706422018348
+bert-base-trained-lxmert-scratch,What is the color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.7339449541284404
+bert-base-trained-lxmert-scratch,What is the colour of [DESCRIPTOR] [ITEM]? [MASK].,0.6972477064220184
+bert-base-trained-lxmert-scratch,The color of [DESCRIPTOR] [ITEM] is [MASK].,0.7064220183486238
+bert-base-trained-lxmert-scratch,The usual color of [DESCRIPTOR] [ITEM] is [MASK].,0.6880733944954128
+bert-base-trained-lxmert-scratch,[DESCRIPTOR] [ITEM] usually has the color of [MASK].,0.6513761467889908
+bert-base-trained-lxmert-scratch,What is the usual color of [DESCRIPTOR] [ITEM]? [MASK].,0.7064220183486238
+bert-base-trained-lxmert-scratch,What is the usual color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.7155963302752294
+bert-base-trained-lxmert-scratch,What is the typical color of [DESCRIPTOR] [ITEM]? [MASK].,0.7064220183486238
+bert-base-trained-lxmert-scratch,What is the typical color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.7339449541284404
+visualbert-vqa-coco,Q: What is the color of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.3211009174311927
+visualbert-vqa-coco,Q: What is the color of [DESCRIPTOR] [ITEM]? [SEP] A: It is [MASK].,0.3761467889908257
+visualbert-vqa-coco,Q: What is the colour of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.3486238532110092
+visualbert-vqa-coco,What is the color of [DESCRIPTOR] [ITEM]? [MASK].,0.1743119266055046
+visualbert-vqa-coco,What is the color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.3302752293577982
+visualbert-vqa-coco,What is the colour of [DESCRIPTOR] [ITEM]? [MASK].,0.23853211009174313
+visualbert-vqa-coco,The color of [DESCRIPTOR] [ITEM] is [MASK].,0.1651376146788991
+visualbert-vqa-coco,The usual color of [DESCRIPTOR] [ITEM] is [MASK].,0.3119266055045872
+visualbert-vqa-coco,[DESCRIPTOR] [ITEM] usually has the color of [MASK].,0.2018348623853211
+visualbert-vqa-coco,What is the usual color of [DESCRIPTOR] [ITEM]? [MASK].,0.22935779816513763
+visualbert-vqa-coco,What is the usual color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.3486238532110092
+visualbert-vqa-coco,What is the typical color of [DESCRIPTOR] [ITEM]? [MASK].,0.2018348623853211
+visualbert-vqa-coco,What is the typical color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.3302752293577982
+lxmert-base-uncased,Q: What is the color of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.41284403669724773
+lxmert-base-uncased,Q: What is the color of [DESCRIPTOR] [ITEM]? [SEP] A: It is [MASK].,0.43119266055045874
+lxmert-base-uncased,Q: What is the colour of [DESCRIPTOR] [ITEM]? A: It is [MASK].,0.44954128440366975
+lxmert-base-uncased,What is the color of [DESCRIPTOR] [ITEM]? [MASK].,0.4954128440366973
+lxmert-base-uncased,What is the color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.44036697247706424
+lxmert-base-uncased,What is the colour of [DESCRIPTOR] [ITEM]? [MASK].,0.5412844036697247
+lxmert-base-uncased,The color of [DESCRIPTOR] [ITEM] is [MASK].,0.6972477064220184
+lxmert-base-uncased,The usual color of [DESCRIPTOR] [ITEM] is [MASK].,0.6788990825688074
+lxmert-base-uncased,[DESCRIPTOR] [ITEM] usually has the color of [MASK].,0.43119266055045874
+lxmert-base-uncased,What is the usual color of [DESCRIPTOR] [ITEM]? [MASK].,0.4954128440366973
+lxmert-base-uncased,What is the usual color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.45871559633027525
+lxmert-base-uncased,What is the typical color of [DESCRIPTOR] [ITEM]? [MASK].,0.48623853211009177
+lxmert-base-uncased,What is the typical color of [DESCRIPTOR] [ITEM]? [SEP] [MASK].,0.41284403669724773
