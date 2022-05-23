@@ -6,7 +6,7 @@
 
 ["What do Models Learn From Training on More Than Text? Measuring Visual Commonsense Knowledge"](https://aclanthology.org/2022.acl-srw.19.pdf). 
 
-This repo contains the code for the paper.
+This repo contains the code for the paper. ACL SRW 2022 presentation slides can be found [here](https://chalmers-my.sharepoint.com/:f:/g/personal/lovhag_chalmers_se/EsbXqoSNZdpKhBeoQyJwJJ0BBLdeNJgplY8itihikueNkA?e=EYvypp).
 
 &nbsp;
 
